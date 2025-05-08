@@ -2,157 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Independent Insurance Agent in San Antonio, TX. Contact First Choice Insurance Services for personalized coverage from all carriers.">
-  <meta name="keywords" content="insurance, San Antonio, independent agent, auto, home, life, First Choice Insurance Services">
-  <meta name="author" content="First Choice Insurance Services">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Independent Insurance Agent in San Antonio, TX. Contact First Choice Insurance Services for personalized coverage from all carriers." />
+  <meta name="keywords" content="insurance, San Antonio, independent agent, auto, home, life, First Choice Insurance Services" />
+  <meta name="author" content="First Choice Insurance Services" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="First Choice Insurance Services" />
+  <meta property="og:description" content="Independent Insurance Agent in San Antonio, TX." />
+  <meta property="og:image" content="assets/images/firstchoiceins.png" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+  
   <title>First Choice Insurance Services</title>
-
-  <style>
-    .fade-in-up {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
-    .fade-in-up.in-view {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #fff; }
-    a { text-decoration: none; color: inherit; }
-    img { max-width: 100%; height: auto; display: block; }
-    section { padding: 60px 20px; }
-
-    header {
-      background: #001F3F;
-      color: #fff;
-      padding: 20px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header h1 { font-size: 1.5rem; }
-    nav ul {
-      display: flex;
-      list-style: none;
-      gap: 20px;
-    }
-    nav ul li a {
-      color: #fff;
-      transition: color 0.3s ease;
-    }
-    nav ul li a:hover {
-      color: #E63946;
-    }
-
-    .hero {
-      background: #f4f4f4;
-      text-align: center;
-      padding: 80px 20px;
-    }
-    .hero h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      color: #001F3F;
-    }
-    .hero p { font-size: 1.1rem; }
-    .hero a {
-      display: inline-block;
-      margin-top: 20px;
-      background: #001F3F;
-      color: #fff;
-      padding: 12px 24px;
-      border-radius: 5px;
-      transition: all 0.3s ease;
-    }
-    .hero a:hover {
-      background-color: #E63946;
-      transform: scale(1.05);
-      color: #FFFFFF;
-    }
-
-    .about img {
-      border-radius: 10px;
-      max-width: 200px;
-      margin: 0 auto 20px;
-    }
-    .about, .services, .contact {
-      opacity: 0;
-      transform: translateY(50px);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-      max-width: 800px;
-      margin: auto;
-      text-align: center;
-    }
-    .about.visible, .services.visible, .contact.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .services ul {
-      list-style: none;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 0;
-    }
-    .services ul li {
-      background: #f9f9f9;
-      padding: 20px;
-      border-radius: 8px;
-      transition: all 0.3s ease;
-    }
-    .services ul li:hover {
-      background-color: #f0f0f0;
-      transform: translateX(5px);
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      margin-top: 20px;
-    }
-    input, textarea {
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1rem;
-      transition: box-shadow 0.3s ease, border 0.3s;
-    }
-    input:focus, textarea:focus {
-      border-color: #E63946;
-      box-shadow: 0 0 5px rgba(230, 57, 70, 0.5);
-      outline: none;
-    }
-    button {
-      background: #001F3F;
-      color: #fff;
-      border: none;
-      padding: 12px;
-      border-radius: 5px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    button:hover {
-      background: #E63946;
-    }
-
-    footer {
-      background: #001F3F;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-
-    @media (max-width: 600px) {
-      nav ul { flex-direction: column; gap: 10px; }
-    }
-  </style>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
 
@@ -174,8 +38,8 @@
   </section>
 
   <section class="about fade-in-up" id="about">
-   <img src="assets/images/firstchoiceins.png" alt="Debra Edwards, Independent Agent">
- <h3>Meet Your Agent</h3>
+    <img src="assets/images/firstchoiceins.png" alt="Debra Edwards, Independent Agent" />
+    <h3>Meet Your Agent</h3>
     <p>Debra Edwards is your dedicated local agent offering personalized insurance solutions tailored to your needs.</p>
   </section>
 
@@ -193,29 +57,52 @@
 
   <section class="contact fade-in-up" id="contact">
     <h3>Contact Us</h3>
-    <p>Located at 8526 Tuxford, San Antonio, TX 78239<br>
+    <p>Located at 8526 Tuxford, San Antonio, TX 78239<br />
        Phone: <a href="tel:+12105909955">(210) 590-9955</a></p>
-   <form id="contact-form" action="https://formspree.io/f/xanojyee" method="POST">
-  <label for="name">Full Name</label>
-  <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+    <form id="contact-form" action="https://formspree.io/f/xanojyee" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Full Name" required />
 
-  <label for="email">Email Address</label>
-  <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="_replyto" placeholder="Your Email" required />
 
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
 
-  <button type="submit">Send Message</button>
-  <p id="form-status"></p>
-</form>
->
+      <button type="submit">Send Message</button>
+      <p id="form-status"></p>
+    </form>
   </section>
 
   <footer>
     <p>&copy; 2025 First Choice Insurance Services. All rights reserved.</p>
   </footer>
 
+  <!-- External JavaScript -->
   <script src="assets/js/animations.js"></script>
   <script src="assets/js/form.js"></script>
+  <script>
+    // Debounced Scroll Event for Visibility
+    const debounce = (func, wait) => {
+      let timeout;
+      return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+      };
+    };
+
+    const sections = document.querySelectorAll('.about, .services, .contact');
+    const handleScroll = () => {
+      const trigger = window.innerHeight * 0.85;
+      sections.forEach(section => {
+        const top = section.getBoundingClientRect().top;
+        if (top < trigger) {
+          section.classList.add('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', debounce(handleScroll, 100));
+  </script>
 </body>
 </html>
