@@ -1,59 +1,35 @@
-# First Choice Insurance Services Website
+# First Choices Insurance Services Website
 
-A simple, responsive website for First Choice Insurance Services, an independent insurance agency in San Antonio, TX.
+## 📦 What's Included
+- Static HTML + Tailwind CSS
+- Personal & Business Insurance sections
+- Contact & Quote Form (Netlify Forms)
+- LocalBusiness Schema for SEO
+- Responsive & mobile-friendly design
 
-## Structure
+## 🚀 Deployment Options
 
-```
-first-choice-insurance/
-│
-├── index.html              # Main HTML file
-├── assets/
-│   ├── js/
-│   │   ├── animations.js   # Scroll animations
-│   │   └── form.js         # Form handling
-│   └── images/
-│       └── agent-placeholder.jpg
-└── README.md               # This file
-```
+### Option 1: GitHub Pages
+1. Create a new repo on GitHub
+2. Upload all files from this `.zip`
+3. Go to repo Settings → Pages → Source = `main` → `/root`
+4. Visit your new URL (e.g., `https://username.github.io/repo`)
 
-## Features
+### Option 2: Netlify
+1. Go to [netlify.com](https://www.netlify.com/)
+2. Drag and drop the site folder to deploy
+3. Netlify will auto-detect and wire up your quote form
 
-- Responsive design that works on mobile, tablet, and desktop
-- Contact form powered by Formspree
-- Scroll animations
-- SEO-friendly metadata
+### Option 3: Replit
+1. Create a new Replit (HTML/CSS/JS project)
+2. Upload files into the Replit file manager
+3. Click "Run" — your site will be live
 
-## Setup Instructions
+## ✏️ Customize Easily
+- Update contact info in `index.html`
+- Replace the testimonial or add more under `#testimonials`
+- Use your own hero image (rename to `hero.jpg`)
 
-1. Clone this repository to your local machine
-2. Make sure to create the proper directory structure:
-   ```
-   mkdir -p assets/js assets/images
-   ```
-3. Place the JavaScript files in the `assets/js` directory
-4. Add an image file named `agent-placeholder.jpg` to the `assets/images` directory
-5. Open `index.html` in a web browser to test the site
+---
 
-## Formspree Integration
-
-The contact form uses Formspree for processing. The form is configured to use the endpoint `https://formspree.io/f/xanojyee`. Make sure to test the form submission to ensure it's working correctly.
-
-## Browser Compatibility
-
-This website has been tested and works on:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-For older browsers, the animations gracefully degrade.
-
-## Deployment
-
-This website can be deployed to GitHub Pages:
-
-1. Push the repository to GitHub
-2. Go to repository settings
-3. Enable GitHub Pages from the main branch
-4. The site will be available at `https://[username].github.io/[repository-name]/`
+© 2025 First Choices Insurance Services
